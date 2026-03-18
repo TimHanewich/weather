@@ -7,6 +7,24 @@
   padding-bottom: 20px;
 }
 
+/* ===== Attribution ===== */
+
+.attribution {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 4px 0;
+}
+
+.attribution a {
+  color: var(--text-secondary);
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.attribution a:hover {
+  color: var(--text-primary);
+}
+
 /* ===== Header ===== */
 
 .dashboard-header {

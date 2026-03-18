@@ -45,6 +45,9 @@ function App() {
 
   return (
     <div className="dashboard">
+      <div className="attribution">
+        Made by <a href="https://TimHanewich.github.io" target="_blank" rel="noopener noreferrer">Tim Hanewich</a>
+      </div>
       <header className="dashboard-header">
         <h1 className="dashboard-title">⛅ Weather</h1>
         <LocationSearch onSelect={setLocation} />
